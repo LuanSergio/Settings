@@ -1,0 +1,48 @@
+{
+  // Theme and Font
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.iconTheme": "helium-icon-theme",
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "javascript.suggest.autoImports": true,
+  "editor.rulers": [100],
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.stickyScroll.enabled": true,
+  "explorer.fileNesting.enabled": true,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "–": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  //Formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Format on save
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "prettier.documentSelectors": ["*/.astro"],
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Extension settings
+  "cSpell.userWords": [
+    "clsx",
+    "KONAMI",
+    "Pokeball",
+    "pokedex",
+    "recaptcha",
+    "Usecase"
+  ],
+  "cSpell.language": "en,pt,pt_BR"
+}
